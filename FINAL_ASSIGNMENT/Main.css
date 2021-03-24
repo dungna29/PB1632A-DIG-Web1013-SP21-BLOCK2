@@ -1,0 +1,35 @@
+body {
+    /* Vì mặc định margin của trình duyệt là 8px */
+    margin: 0px;
+}
+
+.img-fluid {
+    /* Cho tất cả các ảnh có trên website full rộng */
+    width: 100%;
+}
+
+.container {
+    /* ĐỘ rộng tối đa dựa vào việc đo trên file PTS */
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+/* ====Header=== */
+
+.header-top {
+    background: #272f54;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.header-main {
+    background: #cb7802;
+    padding: 5px 5px 5px 5px;
+    /* Chia thành phần menu thành 2 phần */
+    display: flex;
+    /* Đưa các thành phần về 2 đầu */
+    justify-content: space-between;
+    align-items: center;
+}
