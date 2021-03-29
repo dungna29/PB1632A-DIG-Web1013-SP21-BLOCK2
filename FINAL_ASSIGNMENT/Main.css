@@ -12,6 +12,7 @@ body {
     /* ĐỘ rộng tối đa dựa vào việc đo trên file PTS */
     max-width: 980px;
     margin: 0 auto;
+    font-family: Tahoma;
 }
 
 
@@ -120,4 +121,24 @@ body {
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.news p {
+    color: #000000;
+    font-size: 13px;
+}
+
+
+/* =====Footer===== */
+
+footer {
+    background: #272f54;
+    color: #ffffff;
+    text-align: center;
+    /* Đo khoảng cách text với lề 17px */
+    padding: 17px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* Khoảng cách top với news 12px */
+    margin-top: 12px;
 }
